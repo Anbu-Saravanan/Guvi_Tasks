@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Subscription Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .subscription-form {
+      background-color: #ffffff;
+      padding: 25px;
+      max-width: 500px;
+      margin: auto;
+      border: 1px solid #ccc;
+    }
+    .subscription-form h2 {
+      text-align: center;
+    }
+    .subscription-form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    .subscription-form input[type="text"],
+    .subscription-form input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    .subscription-form .subscription-options,
+    .subscription-form .additional-info {
+      margin-top: 15px;
+    }
+    .subscription-form .subscription-options label,
+    .subscription-form .additional-info label {
+      font-weight: normal;
+      display: block;
+      margin-top: 5px;
+    }
+    .subscription-form button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+    }
+    .subscription-form button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <form class="subscription-form">
+    <h2>Yes! I want to subscribe to Mag-O-Zine</h2>
+
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="first-name" required>
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="last-name" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required>
+
+    <label for="zip">Zip:</label>
+    <input type="text" id="zip" name="zip" required>
+
+    <div class="subscription-options">
+      <label>Subscribe for:</label>
+      <label><input type="radio" name="subscription" value="1year" required> 1 year ($19.95)</label>
+      <label><input type="radio" name="subscription" value="2year"> 2 years ($35.00)</label>
+    </div>
+
+    <div class="additional-info">
+      <label>Send me more information about:</label>
+      <label><input type="checkbox" name="info" value="Computer-Zine"> Computer-Zine</label>
+      <label><input type="checkbox" name="info" value="Fishing-Zine"> Fishing-Zine</label>
+      <label><input type="checkbox" name="info" value="Cat-O-Zine"> Cat-O-Zine</label>
+    </div>
+
+    <button type="submit">Subscribe</button>
+  </form>
+</body>
+</html>

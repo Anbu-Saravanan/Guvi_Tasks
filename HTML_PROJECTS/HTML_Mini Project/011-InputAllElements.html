@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All Input Elements</title>
+</head>
+<body>
+
+  <h2>Form with All HTML Input Elements</h2>
+
+  <form>
+
+    <!-- Text Input -->
+    <label>Text: <input type="text" name="text" value="Sample Text"></label><br><br>
+
+    <!-- Password -->
+    <label>Password: <input type="password" name="password" value="123456"></label><br><br>
+
+    <!-- Email -->
+    <label>Email: <input type="email" name="email" value="test@example.com"></label><br><br>
+
+    <!-- Number -->
+    <label>Number: <input type="number" name="number" value="10" min="1" max="100"></label><br><br>
+
+    <!-- URL -->
+    <label>Website: <input type="url" name="url" value="https://example.com"></label><br><br>
+
+    <!-- Telephone -->
+    <label>Phone: <input type="tel" name="phone" value="+1234567890"></label><br><br>
+
+    <!-- Date -->
+    <label>Date: <input type="date" name="date" value="2025-01-01"></label><br><br>
+
+    <!-- Time -->
+    <label>Time: <input type="time" name="time" value="14:00"></label><br><br>
+
+    <!-- Week -->
+    <label>Week: <input type="week" name="week" value="2025-W01"></label><br><br>
+
+    <!-- Month -->
+    <label>Month: <input type="month" name="month" value="2025-01"></label><br><br>
+
+    <!-- Color -->
+    <label>Color: <input type="color" name="color" value="#ff0000"></label><br><br>
+
+    <!-- Checkbox -->
+    <label><input type="checkbox" name="subscribe" checked> Subscribe to newsletter</label><br><br>
+
+    <!-- Radio Buttons -->
+    <label><input type="radio" name="gender" value="male" checked> Male</label><br>
+    <label><input type="radio" name="gender" value="female"> Female</label><br><br>
+
+    <!-- File Upload -->
+    <label>Upload File: <input type="file" name="file"></label><br><br>
+
+    <!-- Range Slider -->
+    <label>Volume: <input type="range" name="volume" min="0" max="100" value="50"></label><br><br>
+
+    <!-- Hidden Input -->
+    <input type="hidden" name="userid" value="12345">
+
+    <!-- Search -->
+    <label>Search: <input type="search" name="search" placeholder="Search here..."></label><br><br>
+
+    <!-- Textarea -->
+    <label>Comments:<br>
+      <textarea name="comments" rows="4" cols="40">This is a sample comment.</textarea>
+    </label><br><br>
+
+    <!-- Select Dropdown -->
+    <label>Country:
+      <select name="country">
+        <option value="india">India</option>
+        <option value="usa" selected>USA</option>
+        <option value="uk">UK</option>
+      </select>
+    </label><br><br>
+
+    <!-- Submit and Reset Buttons -->
+    <input type="submit" value="Submit Form">
+    <input type="reset" value="Reset">
+
+  </form>
+
+</body>
+</html>

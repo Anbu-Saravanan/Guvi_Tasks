@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Elements with Default Values</title>
+</head>
+<body>
+
+  <h2>Form Elements with Default Values</h2>
+
+  <form>
+
+    <!-- Text input with default value -->
+    <label>Full Name:
+      <input type="text" name="fullname" value="John Doe">
+    </label><br><br>
+
+    <!-- Email input with default value -->
+    <label>Email:
+      <input type="email" name="email" value="john@example.com">
+    </label><br><br>
+
+    <!-- Password input with default value -->
+    <label>Password:
+      <input type="password" name="password" value="123456">
+    </label><br><br>
+
+    <!-- Number input with default value -->
+    <label>Age:
+      <input type="number" name="age" value="30">
+    </label><br><br>
+
+    <!-- Radio buttons with one preselected -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <!-- Checkboxes with some pre-checked -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby" value="reading" checked> Reading<br>
+    <input type="checkbox" name="hobby" value="sports"> Sports<br>
+    <input type="checkbox" name="hobby" value="music" checked> Music<br><br>
+
+    <!-- Select dropdown with default option -->
+    <label>Country:
+      <select name="country">
+        <option value="india">India</option>
+        <option value="usa" selected>USA</option>
+        <option value="uk">UK</option>
+      </select>
+    </label><br><br>
+
+    <!-- Textarea with default content -->
+    <label>Comments:<br>
+      <textarea name="comments" rows="4" cols="30">This is my default comment.</textarea>
+    </label><br><br>
+
+    <!-- Date input with default date -->
+    <label>Date of Birth:
+      <input type="date" name="dob" value="2000-01-01">
+    </label><br><br>
+
+    <!-- Color picker with default value -->
+    <label>Favorite Color:
+      <input type="color" name="favcolor" value="#00ff00">
+    </label><br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit Form">
+
+  </form>
+
+</body>
+</html>

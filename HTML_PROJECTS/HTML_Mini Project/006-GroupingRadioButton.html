@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form with Employee Type</title>
+</head>
+<body>
+  <h2>Contact Us</h2>
+
+  <form action="#" method="POST">
+    <!-- Full Name -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <!-- Employee Type (Radio Buttons) -->
+    <label>Employee Type:</label><br>
+    <input type="radio" id="salaried" name="employeeType" value="Salaried" required>
+    <label for="salaried">Salaried</label><br>
+
+    <input type="radio" id="business" name="employeeType" value="Own Business">
+    <label for="business">Own Business</label><br><br>
+
+    <!-- Submit -->
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
