@@ -1,6 +1,6 @@
 1.	db.products.find().pretty();
 
-2.	db.products.find({product_price:{$gte:400, 			$lte:800}})
+2.	db.products.find({product_price:{$gte:400, $lte:800}})
 
 3.	db.products.find({product_price:{$not:{$gte:400,
 	$lte:600}}})
