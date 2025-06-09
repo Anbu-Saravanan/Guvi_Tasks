@@ -1,0 +1,8 @@
+Restful URL 
+1. Form landing page GET ("api/") — shows the Thymeleaf form
+
+2. Submit form via POST (api/addEmployee) — saves new employee
+
+3. List all employees via GET (api/displayAll) — returns JSON list
+
+4. Fetch specific employee via GET (api/display/{id}) — returns JSON object
